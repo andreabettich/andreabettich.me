@@ -1,0 +1,16 @@
+.who-am-i {
+  margin-top: 5rem;
+  p {
+    font-size: 36px;
+    color: #ffffff;
+    @include breakpoint(large up) {
+      margin-bottom: 0;
+    }
+    b {
+      font-weight: 900;
+      &.language {
+        text-decoration: underline;
+      }
+    }
+  }
+}

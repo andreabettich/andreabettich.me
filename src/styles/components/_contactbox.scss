@@ -1,0 +1,13 @@
+.contact-info-box {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  @include breakpoint(medium up) {
+    justify-content: flex-end;
+    align-items: center;
+  }
+  @include breakpoint(large up) {
+    flex-wrap: nowrap;
+  }
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Andrea Bettich",
+    "icon": "logo",
+    "description":
+      "My personal website with some infos about me. You are currently on it :)",
+    "technologies": ["sass", "javascript", "react"],
+    "tags": ["SASS", "ReactJS", "Redux", "Webpack", "BEM"],
+    "links": [
+      {
+        "icon": "github",
+        "href": "https://github.com/andreabettich/andreabettich.me",
+        "info": "Github"
+      },
+      {
+        "icon": "external",
+        "href": "https://www.andreabettich.me",
+        "info": "Website"
+      }
+    ]
+  },
+  {
+    "name": "Freedomvote",
+    "icon": "freedomvote",
+    "description":
+      "A tool to represent the views of politicians and parties as a help to the voters.",
+    "technologies": ["python", "sass", "javascript"],
+    "tags": ["Django", "Docker", "BEM", "OSS"],
+    "links": [
+      {
+        "icon": "github",
+        "href": "https://github.com/freedomvote/freedomvote",
+        "info": "Github Project"
+      },
+      {
+        "icon": "external",
+        "href": "https://freedomvote.ch",
+        "info": "Website"
+      },
+      {
+        "icon": "github",
+        "href": "https://github.com/freedomvote/frontend",
+        "info": "Github New Frontend"
+      },
+      {
+        "icon": "external",
+        "href": "http://freedomvote_master.surge.sh",
+        "info": "Frontend Preview"
+      }
+    ]
+  },
+  {
+    "name": "Endstation",
+    "icon": "endstation",
+    "description": "Implementation of the Webshop for our microbrewery.",
+    "technologies": ["shopware", "php", "sass"],
+    "tags": ["Shopware", "PHP", "Smarty", "SASS", "BEM"],
+    "links": [
+      {
+        "icon": "external",
+        "href": "https://endstation.beer",
+        "info": "Website"
+      },
+      {
+        "icon": "external",
+        "href": "https://test.endstation.beer",
+        "info": "Website Test Environment"
+      }
+    ]
+  },
+  {
+    "name": "Foreman YML",
+    "icon": "foreman",
+    "description": "Python CLI tool to help with the configuration of foreman",
+    "technologies": ["python"],
+    "tags": ["Python", "CLI", "YAML"],
+    "links": [
+      {
+        "icon": "github",
+        "href": "https://github.com/adfinis-sygroup/foreman-yml",
+        "info": "Github"
+      }
+    ]
+  },
+  {
+    "name": "Ember Validated Form",
+    "icon": "ember",
+    "description": "Simple and easy to use form validation for emberjs.",
+    "technologies": ["javascript", "ember"],
+    "tags": ["Javascript", "EmberJS"],
+    "links": [
+      {
+        "icon": "github",
+        "href": "https://github.com/adfinis-sygroup/ember-validated-form",
+        "info": "Github"
+      }
+    ]
+  },
+  {
+    "name": "AdSy CC",
+    "icon": "adsycc",
+    "description":
+      "Dashboard for customers to have access to passwords, server infos and open issues/tickets.",
+    "technologies": ["javascript", "nodejs", "ember"],
+    "tags": [
+      "Javascript",
+      "NodeJs",
+      "ExpressJs",
+      "EmberJs",
+      "Vault",
+      "Timed",
+      "Redmine"
+    ],
+    "links": [
+      {
+        "icon": "github",
+        "href": "https://github.com/adfinis-sygroup/adsycc",
+        "info": "Github"
+      }
+    ]
+  },
+  {
+    "name": "Timed Frontend",
+    "icon": "timed",
+    "description":
+      "EmberJs frontend of the timetracking software by Adfinis-SyGroup AG",
+    "technologies": ["javascript", "ember"],
+    "tags": ["EmberJs", "REST"],
+    "links": [
+      {
+        "icon": "github",
+        "href": "https://github.com/adfinis-sygroup/timed-frontend",
+        "info": "Timed Frontend"
+      }
+    ]
+  },
+  {
+    "name": "Idea List",
+    "icon": "idea",
+    "description":
+      "Made this simple idea app on a trial work day. First experience with Vue.js",
+    "technologies": ["python"],
+    "tags": ["NodeJs", "VueJs", "Docker", "PostgreSQL"],
+    "links": [
+      {
+        "icon": "github",
+        "href": "https://github.com/andreabettich/idea-api",
+        "info": "API"
+      },
+      {
+        "icon": "github",
+        "href": "https://github.com/andreabettich/idea-client",
+        "info": "Client"
+      }
+    ]
+  },
+  {
+    "name": "Pig slaughterhouse data",
+    "icon": "pig",
+    "description":
+      "Helped my sister on her bachelor thesis with merging slaughterhouse data (over 200'000 entries per file) into one summarized one.",
+    "technologies": ["python"],
+    "tags": ["Python", "Import/Export", "CSV", "PostgreSQL"],
+    "links": [
+      {
+        "icon": "github",
+        "href": "https://github.com/andreabettich/pig-slaughterhouse-data",
+        "info": "Github"
+      }
+    ]
+  },
+  {
+    "name": "100 Jahre RBS",
+    "icon": "rbs",
+    "description":
+      "Website for the 100 years anniversary of RBS. Has different post-types to manage the map entries.",
+    "technologies": ["wordpress", "php"],
+    "tags": ["Wordpress", "WP Post-Types", "Javascript", "Docker", "CircleCI"],
+    "links": [
+      {
+        "icon": "external",
+        "href": "https://www.hundertjahre.ch",
+        "info": "Website"
+      }
+    ]
+  },
+  {
+    "name": "Antike Uhren Scartazzini",
+    "icon": "antikeuhren",
+    "description":
+      "A simple website I first made 8 years ago and then migrated it to Wordpress. Has custom post-types so Mr. Scartazzini can easily  manage all his watches.",
+    "technologies": ["wordpress", "php"],
+    "tags": ["Wordpress", "WP Post-Types", "Docker", "Migration"],
+    "links": [
+      {
+        "icon": "external",
+        "href": "https://antikeuhren-scartazzini.ch",
+        "info": "Website"
+      }
+    ]
+  }
+]

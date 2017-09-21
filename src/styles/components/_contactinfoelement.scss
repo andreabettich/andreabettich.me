@@ -1,0 +1,18 @@
+.contact-info-element {
+  padding: 0 1rem;
+  .name {
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  .value {
+    padding-left: 0.4rem;
+    a {
+      text-decoration: none;
+      color: #eeeeee;
+      opacity: 0.5;
+      font-size: 21px;
+    }
+  }
+}

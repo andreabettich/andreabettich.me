@@ -1,0 +1,24 @@
+.social-networks {
+  margin: 5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include breakpoint(medium up) {
+    justify-content: space-between;
+  }
+}
+
+.social-network {
+  &__element {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    &:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  }
+}
