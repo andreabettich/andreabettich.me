@@ -13,8 +13,8 @@ const WhoAmI = props => {
         <b className="language">Python</b>.
       </p>
       <p>
-        To free my mind I love <b>Photography</b>, play <b>Badminton</b> and
-        make <b>CraftBeer</b>.
+        To free my mind I enjoy <b>Photography</b>, play <b>Badminton</b> and
+        brew <b>CraftBeer</b>.
       </p>
     </div>
   );
