@@ -1,31 +1,18 @@
 .projects__filter {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
   margin-bottom: 1rem;
-  @include breakpoint(medium up) {
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: row;
-  }
-  b {
+  strong {
     font-size: 24px;
-    margin-right: 2rem;
     text-transform: uppercase;
   }
-}
-
-.projects__filter .list {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
   &__item {
-    text-align: center;
-    padding: 0 1rem;
     cursor: pointer;
     font-size: 24px;
     text-transform: capitalize;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    &:first-child {
+      padding-left: 0;
+    }
     &:hover,
     &--active {
       text-decoration: underline;

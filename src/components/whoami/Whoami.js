@@ -2,19 +2,18 @@ import React from 'react';
 
 const WhoAmI = props => {
   return (
-    <div className="small-12 who-am-i">
+    <div className="who-am-i cell small-12">
       <p>
-        Tschou. My Name is <b>Andrea Bettich</b>.
+        Grüäsech. My Name is <strong>Andrea Bettich</strong>.
       </p>
       <p>I'm a 25 year old Web Developer from Switzerland.</p>
       <p>
-        I have experience in <b className="language">Java</b>,{' '}
-        <b className="language">JavaScript</b>,{' '}
-        <b className="language">Python</b>.
+        I have experience in <strong>Java</strong>, <strong>JavaScript</strong>,{' '}
+        <strong>Python</strong>.
       </p>
       <p>
-        To free my mind I enjoy <b>Photography</b>, play <b>Badminton</b> and
-        brew <b>CraftBeer</b>.
+        To free my mind I enjoy <strong>Photography</strong>, play{' '}
+        <strong>Badminton</strong> and brew <strong>CraftBeer</strong>.
       </p>
     </div>
   );

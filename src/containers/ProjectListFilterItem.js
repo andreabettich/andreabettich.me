@@ -5,7 +5,10 @@ import { bindActionCreators } from 'redux';
 
 class ProjectListFilterItem extends Component {
   itemClassName() {
-    return `list__item ${this.props.active ? 'list__item--active' : ''}`;
+    const activeClass = this.props.active
+      ? 'projects__filter__item--active'
+      : '';
+    return `projects__filter__item ${activeClass}`;
   }
   render() {
     return (

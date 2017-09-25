@@ -22,9 +22,7 @@ class ProjectList extends Component {
   }
   render() {
     return (
-      <div className="grid-container">
-        <div className="grid-x grid-padding-x">{this.renderProjectList()}</div>
-      </div>
+      <div className="grid-x grid-margin-x">{this.renderProjectList()}</div>
     );
   }
 }

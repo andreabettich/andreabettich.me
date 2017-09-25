@@ -5,7 +5,7 @@ import ProjectListFilter from '../../containers/ProjectListFilter';
 class Projects extends Component {
   render() {
     return (
-      <div className="small-12 projects">
+      <div className="projects cell small-12">
         <ProjectListFilter />
         <ProjectList />
       </div>

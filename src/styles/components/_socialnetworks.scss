@@ -1,11 +1,5 @@
 .social-networks {
   margin: 5rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  @include breakpoint(medium up) {
-    justify-content: space-between;
-  }
 }
 
 .social-network {

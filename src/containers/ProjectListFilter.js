@@ -14,11 +14,15 @@ class ProjectListFilter extends Component {
   }
   render() {
     return (
-      <div className="projects__filter small-12">
-        <b>
-          Projects <br /> Contributions
-        </b>
-        <div className="list">{this.renderFilters()}</div>
+      <div className="projects__filter small-12 cell">
+        <div className="grid-x">
+          <div className="small-12 cell">
+            <strong>Projects & Contributions</strong>
+          </div>
+          <div className="small-12 cell">
+            <div className="grid-x">{this.renderFilters()}</div>
+          </div>
+        </div>
       </div>
     );
   }
