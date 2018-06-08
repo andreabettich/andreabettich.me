@@ -38,7 +38,7 @@ const SocialNetworks = props => {
         <SocialNetwork
           name="Instagram"
           icon="instagram"
-          href="https://www.instagram.com/abettich/"
+          href="https://www.instagram.com/andreabettich/"
           target="_blank"
         />
         <SocialNetwork
