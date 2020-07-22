@@ -1,0 +1,8 @@
+ {
+  "schemaVersion" :2 ,
+  "dockerfileLines" :[
+                        "FROM  nginx:1.19.1",
+                        "COPY ./app /usr/share/nginx/html"
+                    ]
+ }
+
